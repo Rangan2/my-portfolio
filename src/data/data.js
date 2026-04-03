@@ -20,11 +20,11 @@ export const stats = [
 ];
 
 export const skillGroups = [
-  { title: "Languages",           color: "accent",  items: ["Java", "Python"] },
-  { title: "Frameworks & Tools",  color: "green",   items: ["Spring Boot", "Apache Spark", "Apache Hadoop", "Apache Hive", "Apache Airflow", "Flask", "gRPC", "Google Guice"] },
-  { title: "Cloud & Infra",       color: "purple",  items: ["AWS ECS", "AWS S3", "Amazon Bedrock", "Amazon DynamoDB", "Amazon Aurora", "Amazon RDS", "Terraform"] },
-  { title: "Databases",           color: "gold",    items: ["MySQL", "Amazon Aurora", "Amazon RDS", "Amazon DynamoDB"] },
-  { title: "AI / LLMs",           color: "red",     items: ["OpenAI API", "Amazon Bedrock", "Amazon Nova Pro"] },
+  { title: "Languages",           color: "accent",  items: ["Python", "Java"] },
+  { title: "Frameworks & Tools",  color: "green",   items: ["Apache Spark", "Apache Hadoop", "Apache Hive", "Apache Airflow", "Flask", "Spring Boot",  "gRPC"] },
+  { title: "Cloud & Infra",       color: "purple",  items: ["AWS ECS", "AWS S3", "Amazon Bedrock", "Amazon EventBridge", "Amazon RDS", "Terraform"] },
+  { title: "Databases",           color: "gold",    items: ["MySQL", "Amazon RDS"] },
+  { title: "AI / LLMs",           color: "red",     items: ["OpenAI API", "Amazon Bedrock", "Amazon Nova", "Claude Sonnet"] },
 ];
 
 export const experience = [
@@ -42,7 +42,7 @@ export const experience = [
       "Integrated LLM-powered document review into the regulatory compliance workflow, automating review of SEO articles, paid search ads, and email marketing materials against regulatory guidelines.",
       "Built a Python/Flask API service backed by OpenAI and Amazon Bedrock, deployed on AWS ECS with document storage on S3, enabling automated compliance checks at scale.",
     ],
-    stack: ["Java", "Python", "Flask", "AWS ECS", "AWS S3", "Apache Airflow", "Apache Spark", "OpenAI API", "Amazon Bedrock"],
+    stack: ["Python", "Java", "Flask", "AWS ECS", "AWS S3", "AWS Lambda", "AWS EventBridge", "Apache Airflow", "Apache Spark", "OpenAI API", "Amazon Bedrock", "OpenAI API", "Amazon Nova", "Claude Sonnet"],
   },
   {
     role: "Software Engineer A2",
@@ -100,6 +100,12 @@ export const experience = [
 ];
 
 export const awards = [
+  {
+    title: "Guards of the Fort Award",
+    org: "J.P. Morgan India Private Limited",
+    year: "2025",
+    desc: "Implementation of Amazon Managed Workflows for Apache Airflow in Card Data Technology",
+  },
   {
     title: "Star Performer Award",
     org: "EPAM Systems",

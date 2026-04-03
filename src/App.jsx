@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/react'
 import Navbar from './components/Navbar.jsx'
 import Hero from './components/Hero.jsx'
 import Skills from './components/Skills.jsx'
@@ -19,6 +20,7 @@ export default function App() {
         <Resume />
         <Contact />
       </main>
+      <Analytics />
     </>
   )
 }

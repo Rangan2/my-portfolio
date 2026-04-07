@@ -36,10 +36,10 @@ export const experience = [
     current: true,
     color: "accent",
     bullets: [
-      "Core developer on the Top of Wallet Product Initiative, identifying consumers' preferred Chase credit card based on transaction spend behavior.",
-      "Architected and built a data pipeline that establishes a single source of truth for Spend-based Top of Wallet logic, enabling monthly metrics across all credit card products (e.g., percentage of customers with Sapphire as their top-of-wallet card).",
+      "Core developer on the Data Product Initiatives, identifying consumers' preferred Chase credit card based on transaction spend behavior.",
+      "Architected and built a data pipeline that establishes a single source of truth for Spend-based Data Product logic, enabling monthly metrics across all credit card products.",
       "Enabled rapid reporting of critical financial metrics and off-the-shelf analysis at customer, account, and product levels to support high-risk request resolution.",
-      "Integrated LLM-powered document review into the regulatory compliance workflow, automating review of SEO articles, paid search ads, and email marketing materials against regulatory guidelines.",
+      "Integrated LLM-powered document review into the regulatory compliance workflow, automating review of marketing materials against regulatory guidelines.",
       "Built a Python/Flask API service backed by OpenAI and Amazon Bedrock, deployed on AWS ECS with document storage on S3, enabling automated compliance checks at scale.",
     ],
     stack: ["Python", "Java", "Flask", "AWS ECS", "AWS S3", "AWS Lambda", "AWS EventBridge", "Apache Airflow", "Apache Spark", "OpenAI API", "Amazon Bedrock", "OpenAI API", "Amazon Nova", "Claude Sonnet"],
